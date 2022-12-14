@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -9,12 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ch3_1.UltraMath\Ch3_1.UltraMath.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Ch3_1.Raphson">
-      <HintPath>..\Ch3_1.Raphson\bin\Debug\net6.0\Ch3_1.Raphson.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_1.SampleClassProject", "Ch3_1.SampleClassProject\Ch3_1.SampleClassProject.csproj", "{FDBDB14E-E962-45D5-A610-9B419311B97B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch3_1.SampleClassProject", "Ch3_1.SampleClassProject\Ch3_1.SampleClassProject.csproj", "{FDBDB14E-E962-45D5-A610-9B419311B97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_1.UltraMath", "Ch3_1.UltraMath\Ch3_1.UltraMath.csproj", "{588D3775-8DA9-4794-86E7-F8451D50FF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3_1.Raphson", "Ch3_1.Raphson\Ch3_1.Raphson.csproj", "{BC4319C7-B96B-4EC2-911A-36BE1CD6D504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FDBDB14E-E962-45D5-A610-9B419311B97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDBDB14E-E962-45D5-A610-9B419311B97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDBDB14E-E962-45D5-A610-9B419311B97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588D3775-8DA9-4794-86E7-F8451D50FF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588D3775-8DA9-4794-86E7-F8451D50FF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588D3775-8DA9-4794-86E7-F8451D50FF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588D3775-8DA9-4794-86E7-F8451D50FF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4319C7-B96B-4EC2-911A-36BE1CD6D504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4319C7-B96B-4EC2-911A-36BE1CD6D504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4319C7-B96B-4EC2-911A-36BE1CD6D504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4319C7-B96B-4EC2-911A-36BE1CD6D504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
