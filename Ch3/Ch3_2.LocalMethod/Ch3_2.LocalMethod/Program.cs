@@ -1,17 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-WriteData();
+WriteData("agent 1");
+WriteData("agent 2");
 Console.ReadKey();
-void WriteData()
+void WriteData(string sender)
 {
-    Console.WriteLine(Square(7));
-    Console.WriteLine(Cube(7));
-    int Square(int v)
+    Square(7);
+    Cube(7);
+    void Square(int v)
     {
-        return v * v;
+        int sq= v * v;
+        Console.WriteLine($"{sender}:sq");
     }
-    int Cube(int v)
+    void Cube(int v)
     {
-        return v * v * v;
+        int c= v * v * v;
+        Console.WriteLine($"{sender}:c");
     }
 }
