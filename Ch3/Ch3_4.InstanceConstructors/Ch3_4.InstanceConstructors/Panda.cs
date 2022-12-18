@@ -8,7 +8,7 @@ namespace Ch3_4.InstanceConstructors
 {
     public class Panda
     {
-        public string _name;
+        private string _name;
         public Panda(string name)
         {
             this._name = name;
