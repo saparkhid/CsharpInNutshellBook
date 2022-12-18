@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, World!");
 WriteData("agent 1");
 WriteData("agent 2");
 Console.ReadKey();
