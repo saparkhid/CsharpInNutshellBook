@@ -10,19 +10,21 @@ namespace Ch3_4.InstanceConstructors
     {
         public decimal Price;
         public int Year;
-        public int ID;
-        public Juice(decimal price) 
+        public int ID=100;
+        
+        public Juice(decimal price)
         {
-            Price = price; 
+            Price = price;
         }
-        public Juice(decimal price, int year) : this(price) 
-        { 
+        public Juice(decimal price, int year) : this(price)
+        {
             Year = year;
         }
-        public Juice(decimal price, int year,int id) : this(price,year)
+        public Juice(decimal price, int year, int id) : this(price, year)
         {
             Year = year;
             ID = id;
         }
+        
     }
 }
