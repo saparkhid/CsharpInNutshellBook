@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ch3_5.Indexer
 {
-    public class Library
+    public class Library : Object
     {
         public string[] books;
         public Library()
         {
+
+            Console.WriteLine("Created Library");
             books = new string[]
             {
                 "The Man Has a Past",
@@ -20,10 +18,25 @@ namespace Ch3_5.Indexer
             };
         }
        
+        public void DoSomething()
+        {
+            /*
+            for(int i = 0; i < books.Length; i++)
+            {
+                Book b = new Book(books[i]);
+            }*/
+        }
         public string this[int j]
         {
             get { return books[j]; }
         }
+
+        ~Library()
+        {
+            Console.WriteLine("Finalizing Library");
+            //System.IO.File.WriteAllText("D:\\ERRRRRE.txt", "Finalizing Library");
+        }
+   
       
     }
 }
