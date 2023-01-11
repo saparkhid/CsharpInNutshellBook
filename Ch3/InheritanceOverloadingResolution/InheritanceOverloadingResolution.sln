@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceOverloadingResolution", "InheritanceOverloadingResolution\InheritanceOverloadingResolution.csproj", "{72F9F3B7-2176-4B6E-9BF4-4ECDE42C2FA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72F9F3B7-2176-4B6E-9BF4-4ECDE42C2FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F9F3B7-2176-4B6E-9BF4-4ECDE42C2FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F9F3B7-2176-4B6E-9BF4-4ECDE42C2FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F9F3B7-2176-4B6E-9BF4-4ECDE42C2FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C470876C-05BA-4F6B-A44B-0D817523CAE0}
+	EndGlobalSection
+EndGlobal
