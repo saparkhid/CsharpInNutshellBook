@@ -21,9 +21,13 @@ namespace Ch3_14.GeneralPurposeStack
         }
         public object Pop() 
         {
-            object result= data[position];
             position--;
+            object result= data[position];
             return result;
+        }
+        public int PositionIndex
+        {
+            get { return position; }
         }
     }
 }
