@@ -19,9 +19,17 @@ namespace Ch3_16.ToStringExample
             Z = 0;
             this.Name = name;
         }
+        protected virtual Vector Negate()
+        {
+            return new Vector("");
+        }
         public virtual double Dot(Vector destination)
         {
             return 0;
+        }
+        private double Length()
+        {
+             return Math.Sqrt(Y*Y  + X * X);
         }
     }
 }

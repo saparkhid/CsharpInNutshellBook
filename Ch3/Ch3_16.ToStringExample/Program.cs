@@ -18,6 +18,7 @@ namespace Ch3_16.ToStringExample
             v2.X = 4;
             v2.Y = 8;
             double dot = v1.Dot(v2);
+           
 
             Console.WriteLine(dot);
             Console.ReadKey();
