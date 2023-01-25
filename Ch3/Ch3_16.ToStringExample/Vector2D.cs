@@ -18,6 +18,7 @@ namespace Ch3_16.ToStringExample
 
         public override double Dot(Vector destination)
         {
+          
             return X * destination.X + Y * destination.Y;
         }
         protected override Vector Negate()
