@@ -1,0 +1,7 @@
+Internal classes need to be tested and there is an assembly attribute:
+
+using System.Runtime.CompilerServices;
+
+[assembly:InternalsVisibleTo("MyTests")]
+
+Add this to the project info file, e.g. Properties\AssemblyInfo.cs, for the project under test. In this case "MyTests" is the test project.
