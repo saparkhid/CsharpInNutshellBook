@@ -1,0 +1,10 @@
+﻿using EncryptionSample;
+ICrypto c1 = new TeimorianCrypto("Ali");
+Console.WriteLine(c1.Encrypt());
+c1 = new ParkhidCrypto("Ali");
+Console.WriteLine(c1.Encrypt());
+c1 = new SeyedMostafaCrypto("Ali");
+Console.WriteLine(c1.Encrypt());
+c1 = new HadianCrypto("Ali");
+Console.WriteLine(c1.Encrypt());
+Console.ReadLine();
