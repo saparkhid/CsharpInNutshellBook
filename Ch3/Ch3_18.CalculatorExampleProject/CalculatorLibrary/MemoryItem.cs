@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorLibrary
 {
-    internal class MemorItem
+    internal class MemoryItem
     {
     }
 }

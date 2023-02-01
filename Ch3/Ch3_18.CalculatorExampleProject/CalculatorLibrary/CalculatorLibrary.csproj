@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Display.cs" />
     <Compile Include="History.cs" />
-    <Compile Include="MemorItem.cs" />
+    <Compile Include="MemoryItem.cs" />
     <Compile Include="Memory.cs" />
     <Compile Include="Operation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

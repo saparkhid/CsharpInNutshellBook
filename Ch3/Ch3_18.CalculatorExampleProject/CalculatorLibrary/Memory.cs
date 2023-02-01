@@ -8,11 +8,11 @@ namespace CalculatorLibrary
 {
     internal class Memory
     {
-        MemorItem[] memoryItems;
+        MemoryItem[] memoryItems;
 
         public Memory(int size)
         {
-            memoryItems = new MemorItem[size];
+            memoryItems = new MemoryItem[size];
         }
     }
 }

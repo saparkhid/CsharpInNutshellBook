@@ -20,7 +20,37 @@ namespace CalculatorLibrary
 
         public void SetDisplay(double number)
         {
-
+            display.SetDisplay(number);
         }
+
+        public Operation Add(double a, double b)
+        {
+            double v = a + b;
+            Operation op = new Operation(a, b);
+            op.Value = v;
+            return op;
+        }
+        public Operation Subtract(double a, double b)
+        {
+            double v = a - b;
+            Operation op = new Operation(a, b);
+            op.Value = v;
+            return op;
+        }
+        public Operation Multiply(double a, double b)
+        {
+            double v = a * b;
+            Operation op = new Operation(a, b);
+            op.Value = v;
+            return op;
+        }
+        public Operation Division(double a, double b)
+        {
+            double v = a / b;
+            Operation op = new Operation(a, b);
+            op.Value = v;
+            return op;
+        }
+
     }
 }

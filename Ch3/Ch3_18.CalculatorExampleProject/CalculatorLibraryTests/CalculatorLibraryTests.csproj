@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="DisplayTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StandardCalculatorTests.cs" />
+    <Compile Include="OperationTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
