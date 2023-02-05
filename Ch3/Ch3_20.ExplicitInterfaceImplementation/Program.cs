@@ -17,7 +17,8 @@ namespace Ch3_20.ExplicitInterfaceImplementation
             cake.CakeFlavor = CakeType.Chocolate;
             cake.Price = 3650;
 
-            
+            cake.GetObjectData(null,new StreamingContext());
+
            
             XmlSerializer serializer = new XmlSerializer(typeof(Cake));
             Stream stream = new FileStream(@"D:\xmlFile.xml", FileMode.Create);

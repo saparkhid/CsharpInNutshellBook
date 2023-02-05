@@ -30,6 +30,10 @@ namespace Ch3_20.ExplicitInterfaceImplementation
         }*/
 
        
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            Console.WriteLine("Hello world");
+        }
         void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("Name", this.CakeName);
