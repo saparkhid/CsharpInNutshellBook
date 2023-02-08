@@ -46,6 +46,7 @@
     <Compile Include="MemoryItem.cs" />
     <Compile Include="Memory.cs" />
     <Compile Include="Operation.cs" />
+    <Compile Include="Operators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StandardCalculator.cs" />
   </ItemGroup>
