@@ -1,17 +1,28 @@
 ﻿using Ch_4._1._1_CalbackExample1;
 
-Downloader downloader = new Downloader();
 
-downloader.Download("http://www.myfiles.co/data.txt", Email);
 
-downloader.Download("http://www.myfiles.co/data.txt", () =>
+MyDownloader downloader = new MyDownloader();
+
+downloader.Download("http://www.myfiles.co/data.txt", Shutdown);
+
+var udata = ReadUserData();
+Console.WriteLine(udata.Item3);
+
+Tuple<string, string, int> ReadUserData()
 {
-    Console.WriteLine("Shutting down the PC Now");
-});
+    Tuple<string,string,int> result = Tuple.Create("Ali", "372813782",40);
+    return result;
+
+}
 
 void Shutdown()
 {
     Console.WriteLine("Shutting down the PC Now");
+}
+void EmailWaitThenShutDown()
+{
+
 }
 
 void Restart()
